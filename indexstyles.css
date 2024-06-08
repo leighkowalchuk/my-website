@@ -1,0 +1,114 @@
+body {
+    background-color: cornflowerblue;
+}
+.main {
+    background-image: url(images/introduction.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 60vh;
+    margin: 100px 400px 100px 400px;
+    text-indent: -999999px
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.app1 {
+    margin: 10px 100px 10px 10px;
+    display: inline-block;
+}
+
+.app2 {
+    margin: 1px 1px 1px 1px;
+    display: inline-block;
+}
+
+.app3 {
+    margin: 10px 10px 10px 100px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: rgb(80, 116, 76);
+    display: flex;
+    height: 14vh;
+    justify-content: center;
+    align-items: center; 
+    margin: 1px 500px 10px 500px;
+    border-radius: 20px;
+}
+
+@media all and (max-width: 1300px) and (min-width: 801px){
+    .main {
+        background-image: url(images/introduction.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 60vh;
+        margin: 50px 200px 10px 200px;
+        text-indent: -999999px
+
+    }
+
+    .footer {
+        background-color: orange; 
+        display: flex;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+        margin: 1px 300px 10px 300px;
+        border-radius: 20px;
+    }
+
+    .app1 {
+        margin: 10px 50px 10px 10px;
+    }
+    
+    .app2 {
+        margin: 1px 1px 1px 1px;
+    }
+    
+    .app3 {
+        margin: 10px 10px 10px 50px
+    }
+
+}
+
+@media all and (max-width:800px) {
+    .main {
+        background-image: url(images/introduction.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 60vh;
+        margin: 70px 40px 70px 40px;
+
+    }
+
+    .footer {
+        background-color: cadetblue; 
+        display: flex;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+        margin: 1px 100px 1px 100px;
+        border-radius: 20px;
+    }
+
+    .app1 {
+        margin: 10px 50px 10px 10px;
+    }
+    
+    .app2 {
+        margin: 1px 1px 1px 1px;
+    }
+    
+    .app3 {
+        margin: 10px 10px 10px 50px
+    }
+
+}
