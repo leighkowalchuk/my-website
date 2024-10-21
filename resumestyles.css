@@ -1,0 +1,20 @@
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.main {
+    background-image: url(images/resume.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 75vh;
+    height: 98vh;
+    margin: auto;
+    text-indent: -999999px;
+
+
+}

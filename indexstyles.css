@@ -1,0 +1,135 @@
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    height: 100vh;
+}
+.main {
+    background-image: url(images/introduction.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vh;
+    height: 55%;
+    display: flex;
+    margin: 100px auto 100px auto;
+    text-indent: -999999px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.app1 {
+    margin: 10px 100px 10px 10px;
+    display: inline-block;
+}
+
+.app2 {
+    margin: 1px 1px 1px 1px;
+    display: inline-block;
+}
+
+.app3 {
+    margin: 10px 10px 10px 100px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: white;
+    opacity: 20%;
+    display: flex;
+    height: 14vh; 
+    justify-content: center;
+    align-items: center;
+    margin: 20px 500px 0px 500px; 
+    border-radius: 20px;
+}
+
+@media all and (max-width: 1400px) and (min-width: 801px){
+    body {
+        background-image: url(images/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .main {
+        background-image: url(images/introduction.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        width: 100vh;
+        height: 55%;
+        margin: 50px auto 50px auto;
+        text-indent: -999999px;/
+
+    }
+
+    .footer {
+        background-color: orange; 
+        display: flex;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+        margin: 1px 300px 10px 300px;
+        border-radius: 20px;
+    }
+
+    .app1 {
+        margin: 10px 50px 10px 10px;
+    }
+    
+    .app2 {
+        margin: 1px 1px 1px 1px;
+    }
+    
+    .app3 {
+        margin: 10px 10px 10px 50px
+    }
+
+}
+
+@media all and (max-width:800px) {
+    body {
+        background-image: url(images/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .main {
+        background-image: url(images/introduction.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        width: 100vh;
+        height: 30vh;
+        margin: 100px auto 100px auto;
+        text-indent: -999999px;
+
+    }
+
+    .footer {
+        background-color: cadetblue; 
+        display: flex;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+        margin: 1px 10px 1px 100px;
+        border-radius: 20px;
+    }
+
+    .app1 {
+        margin: 10px 50px 10px 10px;
+    }
+    
+    .app2 {
+        margin: 1px 1px 1px 1px;
+    }
+    
+    .app3 {
+        margin: 10px 10px 10px 50px
+    }
+
+}
