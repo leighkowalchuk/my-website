@@ -28,25 +28,7 @@ ul {
 }
 
 .icon-wrapper {
-    width: 20vw; /* Adjust as needed */
-    height: 50px; /* Set a fixed height for the icon */
-    background-size: contain; /* Ensure the image fits within the div */
-    background-repeat: no-repeat; /* Prevent the background from repeating */
-    display: flex; /* Center the link area */
-    justify-content: center; /* Center the link area */
-    align-items: center; /* Center the link area */
-}
-
-.icon-resume {
-    background-image: url(/images/resume_icon.PNG);
-}
-
-.icon-wrapper.game {
-    background-image: url('/images/game_icon.PNG');
-}
-
-.icon-wrapper.about {
-    background-image: url('/images/aboutme_icon.PNG');
+    position: relative;
 }
 
 .footer_container {
