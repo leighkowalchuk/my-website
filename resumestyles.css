@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-    background-image: url(images/resume.jpg);
+    background-image: url(images/resume.PNG);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;

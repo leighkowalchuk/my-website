@@ -22,24 +22,16 @@ ul {
     list-style-type: none;
 }
 
-.app1 {
-    margin: 10px 100px 10px 10px;
-    display: inline-block;
+.icons {
+    display: flex;
+    justify-content: space-between;
 }
 
-.app2 {
-    margin: 1px 1px 1px 1px;
-    display: inline-block;
+.icon-wrapper {
+    position: relative;
 }
 
-.app3 {
-    margin: 10px 10px 10px 100px;
-    display: inline-block;
-}
-
-.footer {
-    background-color: white;
-    opacity: 20%;
+.footer_container {
     display: flex;
     height: 14vh; 
     justify-content: center;
@@ -48,7 +40,7 @@ ul {
     border-radius: 20px;
 }
 
-@media all and (max-width: 1400px) and (min-width: 801px){
+@media all and (max-width: 1400px) and (min-width: 751px){
     body {
         background-image: url(images/background.png);
         background-size: cover;
@@ -60,15 +52,14 @@ ul {
         background-repeat: no-repeat;
         background-size: contain;
         display: flex;
-        width: 100vh;
-        height: 55%;
+        width: 90vh;
+        height: 50%;
         margin: 50px auto 50px auto;
         text-indent: -999999px;/
 
     }
 
-    .footer {
-        background-color: orange; 
+    .footer_container { 
         display: flex;
         height: 14vh;
         justify-content: center;
@@ -77,59 +68,46 @@ ul {
         border-radius: 20px;
     }
 
-    .app1 {
-        margin: 10px 50px 10px 10px;
-    }
-    
-    .app2 {
-        margin: 1px 1px 1px 1px;
-    }
-    
-    .app3 {
-        margin: 10px 10px 10px 50px
+    .icons img {
+        width: 15vw;
+        height: auto;
     }
 
 }
 
-@media all and (max-width:800px) {
+@media all and (max-width: 750px) {
     body {
-        background-image: url(images/background.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
+        display: flex; /* Make body a flex container */
+        flex-direction: column; /* Stack children vertically */
+        min-height: 100vh; /* Ensure it takes at least full viewport height */
+        margin: 0; /* Remove default margins */
     }
+    
     .main {
         background-image: url(images/introduction.png);
         background-repeat: no-repeat;
         background-size: contain;
-        display: flex;
-        width: 100vh;
-        height: 30vh;
-        margin: 100px auto 100px auto;
-        text-indent: -999999px;
-
+        flex-grow: 1; /* Allow main to grow and take up available space */
+        width: 90vw; /* Use vw for responsiveness */
+        max-height: 50vh; /* Set a max height if necessary */
+        margin: auto; /* Center horizontally */
+        display: flex; /* Use flexbox to center content */
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
     }
-
-    .footer {
-        background-color: cadetblue; 
+    
+    .footer_container {
         display: flex;
-        height: 14vh;
+        height: 14vh; /* Fixed height for the footer */
         justify-content: center;
         align-items: center;
-        margin: 1px 10px 1px 100px;
+        margin: 0 auto; /* Center the footer container */
         border-radius: 20px;
-    }
-
-    .app1 {
-        margin: 10px 50px 10px 10px;
+        padding: 10px; /* Add some padding for mobile */
     }
     
-    .app2 {
-        margin: 1px 1px 1px 1px;
+    .icons img {
+        width: 25vw; /* Responsive width */
+        height: auto;
     }
-    
-    .app3 {
-        margin: 10px 10px 10px 50px
-    }
-
 }

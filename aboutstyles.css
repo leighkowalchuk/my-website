@@ -7,11 +7,11 @@ body {
 }
 
 .item-1 {
-    background-image: url(images/headshot.jpg);
+    background-image: url(images/headshot.PNG);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 30vw;
-    height: 30vh;
+    width: 40vw;
+    height: 40vh;
     text-indent: -999999px;
 }
 
