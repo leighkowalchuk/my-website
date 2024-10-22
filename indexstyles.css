@@ -27,10 +27,6 @@ ul {
     justify-content: space-between;
 }
 
-.icon-wrapper {
-    position: relative;
-}
-
 .footer_container {
     display: flex;
     height: 14vh; 
