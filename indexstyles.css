@@ -83,13 +83,13 @@ ul {
         background-image: url(images/introduction.png);
         background-repeat: no-repeat;
         background-size: contain;
-        flex-grow: 1; /* Allow main to grow and take up available space */
-        width: 90vw; /* Use vw for responsiveness */
-        max-height: 50vh; /* Set a max height if necessary */
-        margin: auto; /* Center horizontally */
-        display: flex; /* Use flexbox to center content */
-        align-items: center; /* Center items vertically */
-        justify-content: center; /* Center items horizontally */
+        flex-grow: 1;
+        width: 90vw;
+        max-height: 50vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .footer_container {
