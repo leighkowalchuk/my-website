@@ -4,34 +4,33 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }
+
 header {
     display: flex;
     color: white;
-    font-size: 2rem;
+    font-size: 2vw;
+    padding: 50px
 }
 
 .item-1 {
     background-image: url(images/first\ building.PNG);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 35vw;
-    height: 33vh;
+    width: 40vw;
+    height: 40vh;
     text-indent: -999999px;
+    margin: 50px;
 }
-.item-2 {
+
+.item-2, .item-3, .item-6 {
     display: flex;
     color: white;
     opacity: 100%;
-    font-size: 2rem;
+    font-size: 2vw;
+    width: 80vw;
+    margin: 50px;
 }
 
-
-.item-3 {
-    display: flex;
-    color: white;
-    opacity: 100%;
-    font-size: 2rem;
-}
 .item-4 {
     background-image: url(images/character\ model.PNG);
     background-size: contain;
@@ -39,38 +38,17 @@ header {
     width: 40vw;
     height: 33vh;
     text-indent: -999999px;
+    margin: 50px;
 }
-
 
 video {
     display: flex;
     width: 40vw;
     height: 40vh;
     text-indent: -999999px;
+    margin: 50px;
 }
 
-.item-6 {
+.container-1, .container-2, .container-3 {
     display: flex;
-    color: white;
-    opacity: 100%;
-    font-size: 2rem;
-}
-
-
-.container-1 {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px 40px 40px 40px;
-}
-
-.container-2 {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px 40px 40px 40px;
-}
-
-.container-3 {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px 40px 40px 40px;
 }
