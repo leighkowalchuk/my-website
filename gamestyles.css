@@ -16,6 +16,7 @@ header {
     background-image: url(images/first\ building.PNG);
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
     width: 40vw;
     height: 40vh;
     text-indent: -999999px;
@@ -28,15 +29,16 @@ header {
     opacity: 100%;
     font-size: 2vw;
     width: 80vw;
-    margin: 50px;
+    margin: 5%;
 }
 
 .item-4 {
     background-image: url(images/character\ model.PNG);
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
     width: 40vw;
-    height: 33vh;
+    height: 40vh;
     text-indent: -999999px;
     margin: 50px;
 }
@@ -49,6 +51,84 @@ video {
     margin: 50px;
 }
 
-.container-1, .container-2, .container-3 {
+.container-1 {
     display: flex;
+    max-height: 50vh;
+}
+.container-2 {
+    display: flex;
+    max-height: 50vh;
+}
+.container-3 {
+    display :flex;
+    max-height: 50vh;
+}
+
+@media (max-width: 750px) {
+    header {
+        display: flex;
+        color: white;
+        font-size: 5vw;
+        padding: 25px
+    }
+    body {
+        background-image: url(images/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .item-1 {
+        background-image: url(images/first\ building.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 100vw;
+        height: 40vh;
+        text-indent: -999999px;
+        margin: 10px;
+    }
+    
+    .item-2, .item-3, .item-6 {
+        display: flex;
+        color: white;
+        opacity: 100%;
+        font-size: 2.5vw;
+        width: 80vw;
+        margin: 5%;
+    }
+    
+    .item-4 {
+        background-image: url(images/character\ model.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 100vw;
+        height: 40vh;
+        text-indent: -999999px;
+        margin: 5px;
+    }
+    
+    video {
+        display: flex;
+        width: 50vw;
+        height: 40vh;
+        text-indent: -999999px;
+        margin: 5px;
+    }
+    .container-1 {
+        display: flex;
+        max-height: 20vh;
+        margin: 0px 0px 50px 0px;
+    }
+    .container-2 {
+        display: flex;
+        max-height: 20vh;
+        margin: 0px 0px 50px 0px;
+    }
+    .container-3 {
+        display :flex;
+        max-height: 20vh;
+        align-items: center;
+    }
 }
