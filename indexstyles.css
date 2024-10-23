@@ -73,10 +73,10 @@ ul {
 
 @media all and (max-width: 750px) {
     body {
-        display: flex; /* Make body a flex container */
-        flex-direction: column; /* Stack children vertically */
-        min-height: 100vh; /* Ensure it takes at least full viewport height */
-        margin: 0; /* Remove default margins */
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        overflow-y: hidden;
     }
     
     .main {
@@ -94,12 +94,12 @@ ul {
     
     .footer_container {
         display: flex;
-        height: 14vh; /* Fixed height for the footer */
+        height: 14vh;
         justify-content: center;
         align-items: center;
-        margin: 0 auto; /* Center the footer container */
+        margin: 0 auto 200px;
         border-radius: 20px;
-        padding: 10px; /* Add some padding for mobile */
+        padding: 10px;
     }
     
     .icons img {
