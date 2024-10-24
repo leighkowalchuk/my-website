@@ -30,3 +30,37 @@ body {
     align-items: center;
     padding: 40px 40px 40px 40px;
 }
+
+@media (max-width: 750px) {
+    body {
+        background-image: url(images/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+        height: 100vh;
+    }
+    
+    .item-1 {
+        background-image: url(images/headshot.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60vw;
+        height: 33vh;
+        text-indent: -999999px;
+    }
+    
+    .item-2 {
+        display: flex;
+        color: white;
+        opacity: 100%;
+        font-size: 3vw;
+        width: 80vw;
+    }
+    
+    .container-1 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+}
