@@ -55,15 +55,15 @@ video {
 
 .container-1 {
     display: flex;
-    max-height: 50vh;
+    max-height: 35vh;
 }
 .container-2 {
     display: flex;
-    max-height: 50vh;
+    max-height: 35vh;
 }
 .container-3 {
     display :flex;
-    max-height: 50vh;
+    max-height: 60vh;
 }
 
 @media (max-width: 750px) {
