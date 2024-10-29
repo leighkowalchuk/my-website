@@ -8,8 +8,9 @@ body {
 header {
     display: flex;
     color: white;
-    font-size: 2vw;
-    padding: 50px
+    font-size: 1.5vw;
+    padding: 50px;
+    font-family: monospace;
 }
 
 .item-1 {
@@ -27,9 +28,10 @@ header {
     display: flex;
     color: white;
     opacity: 100%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 80vw;
     margin: 5%;
+    font-family: monospace;
 }
 
 .item-4 {
@@ -40,7 +42,7 @@ header {
     width: 40vw;
     height: 40vh;
     text-indent: -999999px;
-    margin: 50px;
+    margin: 40px;
 }
 
 video {
@@ -68,13 +70,15 @@ video {
     header {
         display: flex;
         color: white;
-        font-size: 2.5vw;
-        padding: 25px
+        font-size: 2.3vw;
+        padding: 25px;
+        font-family: monospace;
     }
     body {
         background-image: url(images/background.png);
         background-size: cover;
         background-repeat: no-repeat;
+        overflow-y: hidden;
         height: 100%;
 
     }
@@ -94,9 +98,10 @@ video {
         display: flex;
         color: white;
         opacity: 100%;
-        font-size: 2.5vw;
+        font-size: 2vw;
         width: 80vw;
         margin: 5%;
+        font-family: monospace;
     }
     
     .item-4 {
