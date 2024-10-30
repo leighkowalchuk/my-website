@@ -86,8 +86,8 @@ ul {
         flex-grow: 1;
         width: 90vw;
         max-height: 50vh;
-        margin: auto;
         display: flex;
+        margin-top: 150px;
         align-items: center;
         justify-content: center;
     }
