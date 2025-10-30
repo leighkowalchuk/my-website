@@ -1,12 +1,12 @@
 body {
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: hidden;
     height: 100vh;
 }
 .main {
-    background-image: url(images/introduction.png);
+    background-image: url(../images/introduction.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100vh;

@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/FuturaHandwritten.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
 }
 
@@ -10,11 +18,11 @@ header {
     color: white;
     font-size: 1.5vw;
     padding: 50px;
-    font-family: monospace;
+    font-family: futura;
 }
 
 .item-1 {
-    background-image: url(images/first\ building.PNG);
+    background-image: url(../images/first\ building.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -31,11 +39,11 @@ header {
     font-size: 1.5vw;
     width: 80vw;
     margin: 5%;
-    font-family: monospace;
+    font-family: futura;
 }
 
 .item-4 {
-    background-image: url(images/character\ model.PNG);
+    background-image: url(../images/character\ model.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -72,10 +80,10 @@ video {
         color: white;
         font-size: 2.3vw;
         padding: 25px;
-        font-family: monospace;
+        font-family: futura;
     }
     body {
-        background-image: url(images/background.png);
+        background-image: url(../images/background.png);
         background-size: cover;
         background-repeat: no-repeat;
         overflow-y: hidden;
@@ -84,7 +92,7 @@ video {
     }
 
     .item-1 {
-        background-image: url(images/first\ building.PNG);
+        background-image: url(../images/first\ building.PNG);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
@@ -101,11 +109,11 @@ video {
         font-size: 2vw;
         width: 80vw;
         margin: 5%;
-        font-family: monospace;
+        font-family: futura;
     }
     
     .item-4 {
-        background-image: url(images/character\ model.PNG);
+        background-image: url(../images/character\ model.PNG);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;

@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: auto;      /* allow vertical scrolling */
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.main {
+    background-image: url(../images/resume.PNG);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;  /* ensures full image is always visible */
+    display: flex;
+    width: 100vw;              /* fill full screen width */
+    height: 160vh;             /* taller to make image bigger and scrollable */
+    margin: 0 auto;
+    text-indent: -999999px;
+}
+
+@media (max-width: 750px) {
+    .main {
+        background-size: contain;
+        width: 100vw;
+        height: 180vh;       /* even taller for mobile */
+        margin: 0 auto;
+    }
+}
