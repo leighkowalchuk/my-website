@@ -1,7 +1,8 @@
 body {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background_filled.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     overflow-y: hidden;
     height: 100vh;
 }
@@ -9,8 +10,9 @@ body {
     background-image: url(../images/introduction.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100vh;
-    height: 55%;
+    background-position: center;
+    aspect-ratio: 16/9;
+    height: 50%;
     display: flex;
     margin: 100px auto 100px auto;
     text-indent: -999999px;
@@ -25,33 +27,37 @@ ul {
 .icons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 2vw
 }
 
 .footer_container {
     display: flex;
-    height: 14vh; 
+    height: 1vh; 
     justify-content: center;
     align-items: center;
-    margin: 20px 500px 0px 500px; 
-    border-radius: 20px;
+    margin: 0px 500px 0px 500px; 
+    border-radius: 40px;
 }
 
 @media all and (max-width: 1400px) and (min-width: 751px){
     body {
-        background-image: url(images/background.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
+        overflow-y: hidden;
         height: 100vh;
-    }
+        }
     .main {
-        background-image: url(images/introduction.png);
+        background-image: url(../images/introduction.png);
         background-repeat: no-repeat;
         background-size: contain;
-        display: flex;
-        width: 90vh;
+        background-position: center;
+        aspect-ratio: 16/9;
         height: 50%;
-        margin: 50px auto 50px auto;
-        text-indent: -999999px;/
+        display: flex;
+        margin: 100px auto 100px auto;
+        text-indent: -999999px;
 
     }
 
@@ -73,6 +79,7 @@ ul {
 
 @media all and (max-width: 750px) {
     body {
+        background-image: url(../images/background.png);
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -80,16 +87,15 @@ ul {
     }
     
     .main {
-        background-image: url(images/introduction.png);
+        background-image: url(../images/introduction.png);
         background-repeat: no-repeat;
         background-size: contain;
-        flex-grow: 1;
-        width: 90vw;
-        max-height: 50vh;
+        background-position: center;
+        aspect-ratio: 5/3;
+        height: 50%;
         display: flex;
-        margin-top: 150px;
-        align-items: center;
-        justify-content: center;
+        margin: 100px auto 100px auto;
+        text-indent: -999999px;
     }
     
     .footer_container {
@@ -103,7 +109,7 @@ ul {
     }
     
     .icons img {
-        width: 25vw; /* Responsive width */
+        width: 25vw;  
         height: auto;
     }
 }

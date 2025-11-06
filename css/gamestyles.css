@@ -22,7 +22,7 @@ header {
 }
 
 .item-1 {
-    background-image: url(../images/first\ building.PNG);
+    background-image: url(../images/first_building.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -43,7 +43,7 @@ header {
 }
 
 .item-4 {
-    background-image: url(../images/character\ model.PNG);
+    background-image: url(../images/character_model.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -92,7 +92,7 @@ video {
     }
 
     .item-1 {
-        background-image: url(../images/first\ building.PNG);
+        background-image: url(../images/first_building.PNG);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
@@ -113,7 +113,7 @@ video {
     }
     
     .item-4 {
-        background-image: url(../images/character\ model.PNG);
+        background-image: url(../images/character_model.PNG);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
