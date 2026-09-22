@@ -49,8 +49,13 @@ body {
 .back-button {
     position: absolute;
     display: inline-flex;
-    padding: 10px;
+    padding: 40px;
     transition: 0.2s ease, transform 0.2s ease;
+}
+
+.back-button img {
+    width: 150px;  
+    height: auto; 
 }
 
 .back-button:hover {
