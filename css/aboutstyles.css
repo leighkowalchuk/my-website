@@ -21,6 +21,7 @@ body {
     width: 60vw;
     height: 50vh;
     text-indent: -999999px;
+    transform: translateY(80px)
 }
 
 .item-2 {
@@ -40,6 +41,22 @@ body {
     align-items: center;
     padding: 10px 10px 10px 10px;
 }
+
+.back-icon {
+    object-fit: contain;
+}
+
+.back-button {
+    position: absolute;
+    display: inline-flex;
+    padding: 10px;
+    transition: 0.2s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    transform: translateX(-10px); 
+}
+
 
 @media (max-width: 750px) {
     body {

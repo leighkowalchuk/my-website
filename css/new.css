@@ -1,0 +1,60 @@
+/* Reset margins, paddings, and sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body & html take up exactly 100% of the viewport and prevent scrolling */
+html, body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* Removes vertical and horizontal scrollbars */
+  font-family: sans-serif;
+}
+
+/* Stretch the Spline scene to fill the screen as a background */
+.spline-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  z-index: 1; /* Places the 3D scene behind overlay content */
+}
+
+/* Container for text and UI elements on top of the background */
+.content {
+  position: relative;
+  z-index: 2; /* Floating above the Spline background */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  /* Crucial: Allows mouse movements over empty content areas to pass through to Spline */
+  pointer-events: none; 
+}
+
+/* Re-enable interactions for clickable elements (buttons, links, inputs) */
+.content button,
+.content a,
+.content input {
+  pointer-events: auto;
+}
+
+.watermark-cover {
+  position: fixed;
+  bottom: 16px;        
+  right: 18px;        
+  width: 140px;        
+  height: 40px;        
+  background: #F5F5F5; 
+  z-index: 9999;       
+  
+  pointer-events: auto; 
+}

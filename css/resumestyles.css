@@ -21,6 +21,17 @@ body {
     text-indent: -999999px;
 }
 
+.back-button {
+    position: absolute;
+    display: inline-flex;
+    padding: 10px;
+    transition: 0.2s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    transform: translateX(-10px); 
+}
+
 @media (max-width: 750px) {
     .main {
         background-size: contain;
