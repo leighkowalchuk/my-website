@@ -52,11 +52,16 @@ ul {
 
 .new-button {
     position: absolute;
-    top: 200px;
-    left: 20px;
+    top: 100px;
+    right: 270px;
     display: inline-flex;
     padding: 10px;
     transition: 0.2s ease, transform 0.2s ease;
+}
+
+.new-button img {
+    width: 250px;  
+    height: auto; 
 }
 
 .new-button:hover {
@@ -65,7 +70,7 @@ ul {
 .linkedin {
     position: absolute;
     top: 20px;
-    right: 160px; 
+    left: 160px; 
     z-index: 10;
     transition: 0.2s ease, transform 0.2s ease;
 }
@@ -73,7 +78,7 @@ ul {
 .github {
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 20px;
     z-index: 10;
     transition: 0.2s ease, transform 0.2s ease;
 }
@@ -88,19 +93,6 @@ ul {
 .linkedin:hover img,
 .github:hover img {
     transform: translateY(-10px);
-}
-
-.note {
-    position: absolute;
-    position: absolute;
-    top: 50px;
-    left: 250px;
-    z-index: 10;
-}
-
-.note img {
-    width: 270px;  
-    height: auto; 
 }
 
 @media all and (max-width: 1400px) and (min-width: 751px){

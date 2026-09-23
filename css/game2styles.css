@@ -18,7 +18,7 @@ header {
     display: flex;
     color: white;
     font-size: 28px;
-    padding: 240px 200px 40px 200px;
+    padding: 250px 200px 40px 200px;
     font-family: futura;
 }
 
@@ -70,7 +70,7 @@ header {
     transform: translateX(-10px); 
 }
 
-.container-1, .container-2, .container-3, .container-4 {
+.container-1, .container-2, .container-3 {
     display: flex;
     align-items: center; 
     justify-content: space-around; 
@@ -79,7 +79,7 @@ header {
     box-sizing: border-box;
 }
 
-.item-1, .item-3, .item-5, .item-7 {
+.item-1, .item-3, .item-5 {
     display: flex;
     color: white;
     font-size: 28px; 
@@ -90,7 +90,7 @@ header {
 }
 
 .item-2 {
-    background-image: url(../images/first_building.PNG);
+    background-image: url(../images/farm.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ header {
 }
 
 .item-4 {
-    background-image: url(../images/character_model.PNG);
+    background-image: url(../images/animals.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,21 +107,14 @@ header {
     height: 40vh;
 }
 
-.item-8 {
-    background-image: url(../images/character_model.PNG);
+.item-6 {
+    background-image: url(../images/house.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 45%; 
     height: 40vh;
 }
-
-video {
-    width: 45%; 
-    height: 40vh;
-    object-fit: contain;
-}
-
 
 @media (max-width: 750px) {
     .container-1, .container-2, .container-3, .container-4 {
