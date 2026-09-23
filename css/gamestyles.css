@@ -23,22 +23,33 @@ header {
 }
 
 .game {
-    position: absolute;
-    top: 60px;      
-    left: 40%;
+    position: absolute;      
+    right: 20%;
     transform: translateX(-50%); 
     color: white;
     font-family: futura;
-    padding-top: 50px;
 }
 
 .game2 {
-    position: absolute;
-    top: 60px;      
-    right: 30%;    
+    position: absolute;    
+    right: 10%;    
     color: white;
     font-family: futura;
-    padding-top: 50px;
+}
+
+.game img {
+    width: 300px;
+    height: auto;
+    filter: brightness(0.8);
+}
+
+.game2 img {
+    width: 300px;
+    height: auto;
+}
+
+.game2:hover img {
+    filter: brightness(0.9);
 }
 
 .back-button {
