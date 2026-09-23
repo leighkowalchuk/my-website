@@ -21,14 +21,13 @@ body {
     width: 60vw;
     height: 50vh;
     text-indent: -999999px;
-    transform: translateY(80px)
 }
 
 .item-2 {
     display: flex;
     color: white;
     opacity: 100%;
-    font-size: 1.6vw;
+    font-size: 1.53vw;
     width: 100vw;
     margin: 3%;
     white-space: pre-line;
