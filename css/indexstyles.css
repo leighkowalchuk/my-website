@@ -22,26 +22,32 @@ ul {
     list-style-type: none;
 }
 
+.footer_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: -120px;
+    padding-left: 22vw;       
+    box-sizing: border-box;
+}
+
 .icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; 
     align-items: center;
-    gap: 2vw;
+    gap: 1vw;                  
 }
 
 .icons img { 
+    width: 250px;                
+    max-width: 20vw;          
+    height: auto;
     transition: 0.2s ease, transform 0.2s ease;
 }
 
 .icons img:hover {
     transform: translateY(-10px); 
-}
-
-.footer_container {
-    display: flex;
-    height: 1vh; 
-    align-items: center;
-    margin: 0px 500px 0px 500px; 
 }
 
 .new-button {
